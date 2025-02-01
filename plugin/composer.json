@@ -1,0 +1,41 @@
+{
+	"name": "parsa-mrz/verifywoo",
+	"description": "VerifyWoo integraton for WooCommerce",
+	"homepage": "https://github.com/Parsa-mrz/VerifyWoo",
+	"version": "1.0.0",
+	"type": "wordpress-plugin",
+	"license": "Proprietary License",
+	"prefer-stable": true,
+	"minimum-stability": "dev",
+	"require": {
+		"php": ">=7.4"
+	},
+	"require-dev": {
+		"php-stubs/woocommerce-stubs": "^7.8",
+		"phpunit/phpunit": "^9.6"
+	},
+	"config": {
+		"platform": {
+			"php": "7.4"
+		}
+	},
+	"autoload": {
+		"psr-4": {
+			"app\\": "app/"
+		}
+	},
+	"authors": [
+		{
+			"name": "Parsa Mirzaie",
+			"email": "Mirzaie_parsa@prptonmail.ch",
+			"homepage": "https://github.com/Parsa-mrz/",
+			"role": "Developer"
+		}
+	],
+	"scripts": {
+		"plugin-zip": "sh ./bin/plugin-zip.sh",
+		"phpcs": "phpcs -s -p",
+		"phpcbf": "phpcbf -p",
+		"phpdoc": "phpdoc"
+	}
+}
