@@ -66,7 +66,7 @@ class Autoloader {
 						<?php
 						printf(
 							/* translators: 1: is a link to a support document. 2: closing link */
-							esc_html__( 'Your installation of VerifyWoo is incomplete. If you installed VerifyWoo from GitHub, %1$splease refer to this document%2$s to set up your development environment.', 'VerifyWoo' ),
+							esc_html__( 'Your installation of VerifyWoo is incomplete. If you installed VerifyWoo from GitHub, %1$splease refer to this document%2$s to set up your development environment.', 'verify-woo' ),
 							'<a href="' . esc_url( '#' ) . '" target="_blank" rel="noopener noreferrer">',
 							'</a>'
 						);

@@ -7,19 +7,18 @@
  * @package           VerifyWoo
  *
  * @wordpress-plugin
- * Plugin Name:       VerifyWoo
+ * Plugin Name:       Verify Woo
  * Plugin URI:        https://github.com/Parsa-mrz/VerifyWoo
  * Description:       VerifyWoo integration for WooCommerce.
  * Version:           1.0.0
  * Author:            Parsa Mirzaie
- * Author URI:        https://github.com/Parsa-mrz/VerifyWoo/
- * License:           Proprietary
- * License URI:       #
- * Text Domain:       VerifyWoo
+ * Author URI:        https://parsamirzaie.com
+ * License:           GPLv2
+ * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain:       verify-woo
  * Domain Path:       /languages
  * Requires at least:    6.4
  * Requires PHP:         7.4
- * Requires Plugins:     woocommerce
  *
  * WC requires at least: 8.0
  * WC tested up to:      9.0

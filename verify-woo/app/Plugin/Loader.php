@@ -68,7 +68,7 @@ class Loader {
 	 * @since   1.0.0
 	 */
 	public function __clone() {
-		_doing_it_wrong( __FUNCTION__, esc_html__( 'Cloning is forbidden.', 'VerifyWoo' ), '1.0.0' );
+		_doing_it_wrong( __FUNCTION__, esc_html__( 'Cloning is forbidden.', 'verify-woo' ), '1.0.0' );
 	}
 
 	/**
@@ -77,7 +77,7 @@ class Loader {
 	 * @since   1.0.0
 	 */
 	public function __wakeup() {
-		_doing_it_wrong( __FUNCTION__, esc_html__( 'Unserializing instances of this class is forbidden.', 'VerifyWoo' ), '1.0.0' );
+		_doing_it_wrong( __FUNCTION__, esc_html__( 'Unserializing instances of this class is forbidden.', 'verify-woo' ), '1.0.0' );
 	}
 
 	/**

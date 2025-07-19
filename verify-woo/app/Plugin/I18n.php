@@ -34,7 +34,7 @@ class I18n {
 		// TODO: Load plugin textdomain.
 
 		// load_plugin_textdomain(
-		// 'VerifyWoo',
+		// 'verifyWoo-plugin',
 		// false,
 		// dirname( dirname( plugin_basename( __FILE__ ) ) ) . '/languages/'
 		// );
