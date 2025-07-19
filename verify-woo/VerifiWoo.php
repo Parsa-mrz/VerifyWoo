@@ -26,8 +26,8 @@
 
 defined( 'ABSPATH' ) || exit;
 
-if ( ! defined( 'POWERSOFT365_PLUGIN_FILE' ) ) {
-	define( 'POWERSOFT365_PLUGIN_FILE', __FILE__ );
+if ( ! defined( 'PLUGIN_FILE' ) ) {
+	define( 'PLUGIN_FILE', __FILE__ );
 }
 
 require __DIR__ . '/app/Autoloader.php';
